@@ -1,4 +1,5 @@
-@import url("Your Font of Choice");
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
 
 /* || REST */
 * {
@@ -16,10 +17,17 @@ img {
 /* || VARIABLES */
 :root {
   /* COLORS */
-
-  /* GRADIENTS */
+  --yellow : #F4D04E;
+  --gray-950: #111111;
+  --gray-500: #6B6B6B;
+  --white: #FFFFFF;
 
   /* TYPOGRAPHY */
+  --FF: Figtree, serif;
+  --text-preset-1: 900 1.5rem/150% var(--FF);
+  --text-preset-2: 500 1rem/150% var(--FF);
+  --text-preset-3: 500 0.88rem/150% var(--FF);
+  --text-preset-3-bold: 900 0.88rem/150% var(--FF);
 }
 
 /* || UTILITY CLASSES */
