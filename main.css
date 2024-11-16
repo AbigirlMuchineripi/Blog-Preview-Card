@@ -30,9 +30,10 @@ img {
   --text-preset-3-bold: 900 0.88rem/150% var(--FF);
 
    /*MOBILE */
-   
+
 
     /*SHADOWS*/
+    --shadow: 8px 8px 0px 0px #000;
 }
 
 /* || UTILITY CLASSES */
@@ -63,6 +64,9 @@ body {
   min-height: 100vh;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: var(--yellow);
+  display: grid;
+  place-content: center;
 }
 
 h1,
@@ -76,4 +80,31 @@ h2 {
 a:any-link {
   text-decoration: none;
   color: black;
+}
+
+.blog-card{
+  max-width: 327px;
+  min-height: 501px;
+  background-color: var(--white);
+  display:flex;
+  flex-flow: column;
+  border: 1px solid var(--gray-950);
+  box-shadow: var(--shadow);
+  border-radius: 20px;
+  margin: 156px 24px 155px 24px; 
+
+}
+.blog-image{
+  width: 279px;
+  height: 200px;
+  margin: 1.5rem; 
+  border-radius: 10px;
+  overflow:hidden;  
+}
+.blog-image img{
+  
+}
+ .content-container{
+  margin:1.5rem; 
+  border: 1px solid black;
 }
