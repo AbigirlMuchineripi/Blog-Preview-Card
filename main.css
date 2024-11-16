@@ -28,6 +28,11 @@ img {
   --text-preset-2: 500 1rem/150% var(--FF);
   --text-preset-3: 500 0.88rem/150% var(--FF);
   --text-preset-3-bold: 900 0.88rem/150% var(--FF);
+
+   /*MOBILE */
+   
+
+    /*SHADOWS*/
 }
 
 /* || UTILITY CLASSES */
