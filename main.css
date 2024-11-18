@@ -153,17 +153,9 @@ a:any-link {
   font: var(--text-preset-3);
   color: var(--gray-500);
 }
-.author{
-  margin-top: 1.5rem;
-  width:127px;
-  height: 32px;
-  display: flex;
-  flex-flow: row;
-}
 .avatar{
   width: 32px;
   height: 32px;
-
 }
 
 .author-name{
