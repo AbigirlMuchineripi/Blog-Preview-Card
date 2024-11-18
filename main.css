@@ -124,6 +124,9 @@ a:any-link {
   border-radius: 4px;
   background-color: var(--yellow);
 }
+.category .text{
+  margin:4px 12px;
+}
 .text{
   width: 48px;
   height: 18px;
