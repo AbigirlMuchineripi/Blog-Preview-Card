@@ -136,7 +136,7 @@ a:any-link {
   font: var(--TEXT-PRESET-3-MOB);
   width: 123px;
   height: 18px;
-  margin-top: 12px;
+ 
 }
 .title{
   width:279px;
@@ -151,6 +151,7 @@ a:any-link {
   width: 279px;
   height: 63px;
   font: var(--text-preset-3);
+  color: var(--gray-500);
 }
 .author{
   margin-top: 1.5rem;
@@ -164,14 +165,13 @@ a:any-link {
   height: 32px;
 
 }
-.name .avatar{
-  margin:5.5px;
 
-}
 .author-name{
   width: 83px;
   height:21px;
-  font: var(--text-preset-3-bold);
+  display:flex;
+  align-items: center;
+  gap:0.75rem;
 
 }
 
