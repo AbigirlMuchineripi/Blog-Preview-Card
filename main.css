@@ -124,38 +124,43 @@ a:any-link {
   border-radius: 4px;
   background-color: var(--yellow);
 }
-.category .text{
-  margin:4px 12px;
-}
+
 .text{
+  padding :4px 12px;
   width: 48px;
   height: 18px;
   font: var(--TEXT-PRESET-3-MOB-BOLD);
 }
 .publish-date{
   font: var(--TEXT-PRESET-3-MOB);
-  width: 123px;
-  height: 18px;
+  color: var(--gray-950);
  
 }
 .title{
   width:279px;
   height:30px;
-  font: var(--FF) ;
-  font-weight: 800;
-  line-height: 150%;
+  font: var(--TEXT-PRESET-1-MOB);
+  color: var(--gray-950);
  
 }
 .description{
   margin-top: 12px;
   width: 279px;
   height: 63px;
-  font: var(--text-preset-3);
+  font: var(--TEXT-PRESET-2-MOB);
   color: var(--gray-500);
+}
+.author{
+  margin-top: 1.5rem;
+  width:24px;
+  height: 32px;
+  display: flex;
+  flex-flow: row;
 }
 .avatar{
   width: 32px;
   height: 32px;
+
 }
 
 .author-name{
