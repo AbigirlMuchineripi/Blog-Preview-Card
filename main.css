@@ -196,15 +196,12 @@ a:any-link {
   font: var(--text-preset-3); 
 }
 .title{
-  font: var(--TEXT-PRESET-1-MOB);
-  color: var(--gray-950);
+  font:var(--text-preset-1);
  
 }
 .description{
-  font: var(--TEXT-PRESET-2-MOB);
-  color: var(--gray-500);
+  font: var(--text-preset-2);
 }
-
    
 }
 
