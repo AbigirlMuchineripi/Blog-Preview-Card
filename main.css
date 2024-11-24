@@ -152,32 +152,32 @@ a:any-link {
  
 }
 .title{
-  width:279px;
-  height:30px;
   font: var(--TEXT-PRESET-1-MOB);
   color: var(--gray-950);
  
 }
 .description{
-  margin-top: 12px;
-  width: 279px;
-  height: 63px;
   font: var(--TEXT-PRESET-2-MOB);
   color: var(--gray-500);
 }
+/* || BLOG CARD AUTHOR*/
 .author{
   margin-top: 1.5rem;
   width:24px;
   height: 32px;
   display: flex;
-  flex-flow: row;
+  align-items:center ;
+  gap:0.75rem;
 }
 .avatar{
   width: 32px;
   height: 32px;
-
 }
-
+.avatar img{
+ max-width:64px;
+  height: 65px;
+  object-fit: cover;
+}
 .author-name{
   width: 83px;
   height:21px;
