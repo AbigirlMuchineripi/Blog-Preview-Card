@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
 
 
-/* || REST */
+/* || RESET */
 * {
   padding: 0;
   margin: 0;
@@ -65,6 +65,7 @@ img {
 /* || GENERAL STYLES */
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
@@ -76,8 +77,7 @@ body {
   place-content: center;
 }
 
-h1,
-h2 {
+h1 {
   margin: 0;
   padding: 0;
   font-size: inherit;
@@ -86,7 +86,7 @@ h2 {
 
 a:any-link {
   text-decoration: none;
-  color: black;
+
 }
 
 /* || BLOG CARD*/
@@ -109,7 +109,6 @@ a:any-link {
 .blog-image{
   width: 279px;
   height: 200px;
-  margin: 1.5rem; 
   border-radius: 10px;
   overflow:hidden;  
 }
@@ -124,11 +123,6 @@ a:any-link {
   display:flex;
   flex-flow: column;
   gap:0.75rem;
-  /*width: 279px;
-  height: 173px;
-  margin: 1.5rem;
-  padding: 0px;*/
-
 }
 .category{
   width: 73px;
@@ -153,9 +147,6 @@ a:any-link {
 }
 /* || BLOG CARD AUTHOR*/
 .author{
-  margin-top: 1.5rem;
-  width:24px;
-  height: 32px;
   display: flex;
   align-items:center ;
   gap:0.75rem;
