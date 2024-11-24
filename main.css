@@ -100,7 +100,7 @@ a:any-link {
   border: 1px solid var(--gray-950);
   box-shadow: var(--shadow);
   border-radius: 20px;
-  margin: 156px 24px 155px 24px; 
+  margin: 9.75rem 1.5rem;  
   padding:1.5rem;
 
 
@@ -183,4 +183,15 @@ a:any-link {
   color: var(--gray-950);
  
 }
+/*Tablet*/
+@media screen and (min-width:768px){
+  .blog-card{
+    max-width: 384px;
+    min-height: 522px;
+    margin: 13.69rem 33rem; 
+   
+  }
+   
+}
+
 
