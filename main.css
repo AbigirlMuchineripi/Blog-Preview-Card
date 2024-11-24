@@ -174,8 +174,8 @@ a:any-link {
   height: 32px;
 }
 .avatar img{
- max-width:64px;
-  height: 65px;
+ max-width:100%;
+  height: 100%;
   object-fit: cover;
 }
 .author-name{
