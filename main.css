@@ -116,7 +116,8 @@ a:any-link {
 .blog-image img{
  max-width: 336px;
  min-height: 201px;
- object-fit: cover;  
+ object-fit: cover; 
+ align-items: center; 
 }
 /* || BLOG CARD CONTENT*/
  .content-container{
